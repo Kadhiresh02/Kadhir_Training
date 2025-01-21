@@ -1,0 +1,73 @@
+EF Core
+ORM FrameWork
+
+EF supports -Console applications
+Windows applications
+asp.net web forms
+asp.net core mvc
+asp.net core razor pages
+Blazer Apps
+WPF
+Web Api
+.Net MAUI
+
+
+
+Database Approach
+The domain and the context classes are created based on the existing database
+
+Code First Approach
+The Domain and context classes are created by you then EF core created the database using these classes. the term migration is used whenever EF core creates or updates the database based on 
+
+
+dotnet ef dbcontext scaffold "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Company;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False" Microsoft.EntityFrameworkCore.sqlserver -o models
+
+
+
+
+program.cs
+builder.Services.AddDbContext<CompanyContext>(options => options.UseSqlServer(
+    builder.Configuration.GetConnectionString("DefaultConnection")));
+    
+    
+appsettings.json
+ "ConnectionStrings": {
+   "DefaultConnection": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Company;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"
+ },
+ 
+ 
+ CompanyContext.cs
+ using Microsoft.EntityFrameworkCore;
+
+namespace MyDemoApp.Models
+{
+    public class CompanyContext:DbContext
+    {
+        public CompanyContext(DbContextOptions<CompanyContext> options) : base(options) { }
+        public DbSet<Information> Information { get; set; }
+    }
+}
+ 
+ dotnet ef migrations add CompanyDB
+ 
+ dotnet ef database update
+ 
+ Information.cs
+ 
+ namespace MyDemoApp.Models
+{
+    public class Information
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string License { get; set; }
+
+        public DateTime Established { get; set; }
+
+        public decimal Revenue { get; set; }
+
+    }
+}
+

@@ -1,0 +1,187 @@
+Visual studio 2022 software is used in .Net
+
+
+
+Understanding C# Syntax: Key Components
+1. Namespace:
+
+    A namespace organizes code into groups to avoid naming conflicts.
+    Think of it as a folder in a computer system.
+    Example: namespace hello groups all related classes and methods under "hello."
+
+
+2. Class:
+
+    A class is a blueprint for creating objects.
+    It defines the properties (data) and methods (functions) an object can have.
+    Example: class Program defines a class named Program.
+
+
+3. Members:
+
+    Members include variables, methods, and properties defined inside a class.
+    Example: Main() is a method, and variables like id, name, etc., are members of the Program class.
+
+
+4. Blocks:
+
+    Blocks are sections of code enclosed in curly braces {}.
+    Example: Everything inside { } of Main() is a block of code executed by the program.
+
+5. Statements:
+
+    Statements are individual instructions executed in the program.
+    Example: Console.WriteLine("Hello, World!"); is a statement that outputs text.
+
+Problems with Modular Programming
+
+Modular programming divides a program into separate modules to make it manageable. However, it has limitations:
+
+1. Reusability:
+
+    It can be hard to reuse code across different parts of a program.
+
+2. Extensibility:
+
+    Making changes or adding features may require significant rewrites.
+
+3. Simplicity:
+
+    Managing separate modules can get complex without a unified structure.
+
+4. Maintainability:
+
+    Troubleshooting and updating individual modules may take extra effort.
+
+
+=>We can overcome this problems using oops
+
+    OOP introduces classes and objects to address these problems:
+
+1. Reusability:
+
+    Using classes and objects, you can reuse code easily.
+    Example: Define a Person class once and create multiple objects like Person1, Person2, etc.
+2.Extensibility:
+
+    Features like inheritance, aggregation, and composition allow extending functionality without rewriting everything.
+
+3. Inheritance: A class can derive (inherit) properties and behaviors from another class.
+    Aggregation: One class references another as part of its structure.
+    Composition: One class owns another class and ensures its lifetime.
+
+4. Simplicity:
+
+    Abstraction: Focuses on "what" the object does, not "how."
+    Example: A car's steering wheel hides the complex mechanism (implementation hiding).
+    
+    Encapsulation: Protects data by keeping it private and exposing controlled access (data hiding).
+    Example: Use get and set methods to control access to a class variable.
+
+    Polymorphism: Objects behave differently depending on their class or context.
+    Example: A Shape object could represent a Circle or Rectangle, each with its unique area calculation.
+
+5. Maintainability:
+
+    OOP combines all the above features, making code easier to manage, debug, and scale.
+
+
+
+
+Sample code :
+
+using System;
+
+namespace hello
+{
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+
+            int id = 1;                  // Integer variable to store an ID
+            string name = "Sai";         // String variable to store a name
+            double weight = 51.2;        // Double variable for weight
+            bool isMarried = true;       // Boolean variable for marital status
+
+            // Printing information
+            Console.WriteLine(name + " ID is:" + id + " and weight is:" + weight);
+            Console.WriteLine("Married: " + isMarried);
+            Console.ReadKey();           // Waits for a key press to close the program
+        }
+    }
+}
+
+
+
+Explanation:
+    Namespace:
+        namespace hello: Groups the Program class under a logical structure called "hello."
+    
+    Class:
+        internal class Program: Defines the Program class, which contains the main logic.
+    
+    Main Method:
+        private static void Main(string[] args):
+        private: The method is accessible only within the Program class.
+        static: Allows the method to run without creating an object of Program.
+        void: Means it does not return a value.
+        string[] args: Accepts command-line arguments.
+    
+    Statements:
+        Console.WriteLine("Hello, World!");: Prints "Hello, World!" to the console.
+        Variable declarations (e.g., int id = 1;) store data used in the program.
+        Console.ReadKey();: Keeps the console open until a key is pressed.
+    
+    
+    OOP Concepts:
+
+    This program is an example of encapsulation:
+    The data (id, name, weight, etc.) is kept inside the class and manipulated using statements in the Main method.
+
+class Employee{
+    public int eid;
+    public string ename;
+
+    public Employee(){
+        this.eid=2;
+        this.ename="Sai";
+    }
+
+    public Employee(int id , string name){
+        this.eid=id;
+        this.ename=name;
+    }
+    public Employee(int id){
+        this.eid=id;
+    }
+    public Employee(string name){
+        this.ename=name;
+    }
+}
+
+
+class Program{
+    Employee e = new Employee();
+    e.eid = 1;
+    e.ename = "Sais";
+    Console.WriteLine("ID: " + e.eid);
+    Console.WriteLine("Name: " + e.ename);
+
+    Employee e1 = new Employee();
+    Console.WriteLine("ID: " + e1.eid);
+    Console.WriteLine("Name: " + e1.ename);
+
+    Employee e2 = new Employee(3,"Aravindh");
+    Console.WriteLine("ID: " + e2.eid);
+    Console.WriteLine("Name: " + e2.ename);
+
+    Employee e3 = new Employee(4);
+    Console.WriteLine("ID: " + e3.eid);
+    Console.WriteLine("Name: " + e3.ename);
+
+    Employee e4 = new Employee("Zoro");
+    Console.WriteLine("ID: " + e4.eid);
+    Console.WriteLine("Name: " + e4.ename);
+}

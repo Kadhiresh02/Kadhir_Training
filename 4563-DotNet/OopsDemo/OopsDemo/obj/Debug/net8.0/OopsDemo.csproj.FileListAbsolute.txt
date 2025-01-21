@@ -1,0 +1,14 @@
+D:\4563-DotNet\OopsDemo\OopsDemo\bin\Debug\net8.0\OopsDemo.exe
+D:\4563-DotNet\OopsDemo\OopsDemo\bin\Debug\net8.0\OopsDemo.deps.json
+D:\4563-DotNet\OopsDemo\OopsDemo\bin\Debug\net8.0\OopsDemo.runtimeconfig.json
+D:\4563-DotNet\OopsDemo\OopsDemo\bin\Debug\net8.0\OopsDemo.dll
+D:\4563-DotNet\OopsDemo\OopsDemo\bin\Debug\net8.0\OopsDemo.pdb
+D:\4563-DotNet\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\4563-DotNet\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.AssemblyInfoInputs.cache
+D:\4563-DotNet\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.AssemblyInfo.cs
+D:\4563-DotNet\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.csproj.CoreCompileInputs.cache
+D:\4563-DotNet\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.dll
+D:\4563-DotNet\OopsDemo\OopsDemo\obj\Debug\net8.0\refint\OopsDemo.dll
+D:\4563-DotNet\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.pdb
+D:\4563-DotNet\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.genruntimeconfig.cache
+D:\4563-DotNet\OopsDemo\OopsDemo\obj\Debug\net8.0\ref\OopsDemo.dll

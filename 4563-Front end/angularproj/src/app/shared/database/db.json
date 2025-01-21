@@ -1,0 +1,70 @@
+{
+    "products": [
+      {
+        "id": "2",
+        "pname": "Mouse",
+        "pprice": 3000,
+        "pcompany": "HIntelP",
+        "pquantity": 5
+      },
+      {
+        "id": "3",
+        "pname": "USB",
+        "pprice": 2000,
+        "pcompany": "Sandisk",
+        "pquantity": 23
+      },
+      {
+        "id": "4",
+        "pname": "Keyboard",
+        "pprice": "5000",
+        "pcompany": "Dell",
+        "pquantity": 15
+      },
+      {
+        "id": "5",
+        "pname": "Printer",
+        "pprice": 10000,
+        "pcompany": "IBall",
+        "pquantity": 7
+      },
+      {
+        "id": "6002",
+        "pname": "Monitor",
+        "pprice": "25000",
+        "pcompany": "Intel",
+        "pquantity": "56"
+      },
+      {
+        "id": "95c5",
+        "pname": "mouse",
+        "pprice": "35000",
+        "pcompany": "hp",
+        "pquantity": "64"
+      },
+      {
+        "id": "b80f",
+        "pname": "Keyboards",
+        "pprice": "5600",
+        "pcompany": "hp",
+        "pquantity": "6"
+      }
+    ],
+    "users": [
+      {
+        "id": "101",
+        "userid": "admin@gmail.com",
+        "userpass": "admin@1234"
+      },
+      {
+        "id": "102",
+        "userid": "hero@gmail.com",
+        "userpass": "hero@1234"
+      },
+      {
+        "id": "103",
+        "userid": "heroine@gmail.com",
+        "userpass": "heroine@1234"
+      }
+    ]
+  }

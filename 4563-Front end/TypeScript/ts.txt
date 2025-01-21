@@ -1,0 +1,90 @@
+02/12/2024
+
+
+TypeScript:
+ - it is super set of javascript
+ -it is compile language
+ - it is strict typed language
+
+ *how to know ts is available are not
+
+ *how to install ts
+ npm i-g typeScript //to install TypeScript
+ tsc -v //check typescript version
+
+ *how to execute typeScript file
+ tsc filename.ts //compile ts file and create on plain js file
+
+ Task :Write one parameterized function is ts which will take two parameter and display your fullname
+
+
+ task: WAP parameterized function which will return area of circle passing radius values as parameter
+
+
+OOPs:
+
+1-class:
+    - it is collection of data member-function
+    - it is template which we can re-use
+    - to create class we use class keyword
+
+-this:it refers to the current object to access its data inside it only.
+
+2. object: 
+    - it is an instance of class
+    - it allows us to access class data-member and member-function outside  class
+
+    syntax: let objectName=new ClassName();
+
+-Constructor :
+    - it is special mamber function of class
+    - it will execute automatically when class object get created or inialize
+    - in ts Constructorname     must only Constructor
+
+    ==================================================================
+
+    03/12/2024
+
+
+3.Inheritance:
+    -accessing parent class property into child class
+    - to perform inheritance in between classes we use extends keyword
+
+
+*super():
+    - it represent parent class constructor inside child class constructor
+    - super method must be first statement in child class constructor
+    
+
+4.encapsulation
+    -wrapping of data into single unit
+
+-public : we can access class property inside,outside class as well as in derived(child) class
+-protected:we can access class property inside same class as well as in derived(child) class
+-private: we can access class property inside same class only.
+
+5.abstraction :
+    -hidding implementation and showing necessary information
+    - we can achieve this by using interface,abstract class
+
+6.polymorphism:
+    - it is ability to take morethan one form
+    - method overloading :when we have multiple method with same name in same class
+    - method overroding : when we have multiple method with same name in different class
+
+
+
+*module:
+    - writing ys code in single or multiple file and access it in another file
+    - to achieve this we use export and import keyword
+    - to send data we use export
+    - to access it we use import
+
+
+
+*interface:
+    - it is signature of class
+    - it contain abstract method
+    - to create interface we use interface keyword
+    - its child class has responsibility to implement it
+    - to use interface we use implement keyword

@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    border-bottom: 5px solid rgb(0, 30, 255);
+    background-color: rgb(255, 127, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+    
+}
+.logo{
+    border-radius: 50%;
+    border: 2px solid rgb(245, 245, 247);
+    height: 100px;
+    width: 100px;
+
+
+}
+.mytitle{
+    color: darkcyan;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px black;
+    margin-left: 11px;
+}
+
+.childEl
+{
+    border: 2px solid red;
+    width: 176px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.childEl img{
+    width: 100%;
+}
+
+.parentEl{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+}

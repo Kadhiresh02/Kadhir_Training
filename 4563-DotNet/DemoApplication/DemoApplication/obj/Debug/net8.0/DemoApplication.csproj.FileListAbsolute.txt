@@ -1,0 +1,14 @@
+D:\4563-DotNet\DemoApplication\DemoApplication\bin\Debug\net8.0\DemoApplication.exe
+D:\4563-DotNet\DemoApplication\DemoApplication\bin\Debug\net8.0\DemoApplication.deps.json
+D:\4563-DotNet\DemoApplication\DemoApplication\bin\Debug\net8.0\DemoApplication.runtimeconfig.json
+D:\4563-DotNet\DemoApplication\DemoApplication\bin\Debug\net8.0\DemoApplication.dll
+D:\4563-DotNet\DemoApplication\DemoApplication\bin\Debug\net8.0\DemoApplication.pdb
+D:\4563-DotNet\DemoApplication\DemoApplication\obj\Debug\net8.0\DemoApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\4563-DotNet\DemoApplication\DemoApplication\obj\Debug\net8.0\DemoApplication.AssemblyInfoInputs.cache
+D:\4563-DotNet\DemoApplication\DemoApplication\obj\Debug\net8.0\DemoApplication.AssemblyInfo.cs
+D:\4563-DotNet\DemoApplication\DemoApplication\obj\Debug\net8.0\DemoApplication.csproj.CoreCompileInputs.cache
+D:\4563-DotNet\DemoApplication\DemoApplication\obj\Debug\net8.0\DemoApplication.dll
+D:\4563-DotNet\DemoApplication\DemoApplication\obj\Debug\net8.0\refint\DemoApplication.dll
+D:\4563-DotNet\DemoApplication\DemoApplication\obj\Debug\net8.0\DemoApplication.pdb
+D:\4563-DotNet\DemoApplication\DemoApplication\obj\Debug\net8.0\DemoApplication.genruntimeconfig.cache
+D:\4563-DotNet\DemoApplication\DemoApplication\obj\Debug\net8.0\ref\DemoApplication.dll

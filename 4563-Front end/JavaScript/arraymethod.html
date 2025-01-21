@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let students=["Subam","Radha","Vishwa","Rahul"];
+        console.log(students);
+        console.log(students[2]); //access array data outside
+        students[1]="RADHA"; //update array data
+        console.log(students);
+        console.log("Array length:",students.length);
+        console.log("Array Size :",students.length-1);
+
+
+        //how to iterate array
+        for(let i=0;i<students.length;i++)
+    {
+        document.write(students[i]+",");
+    }
+    document.write("<br>==================<br>");
+    //for of : it will return array value
+    for(let s of students)
+    {
+        document.write(s+",");
+    }
+document.write("<br>");
+    //for in :it will return array index
+    for(let s in students)
+    {
+        document.write(s+",");
+    }
+
+    //1.push() :it is used to insert values at last index of an array
+    students.push("Lakshmi","Bala");
+    console.log(students);
+    
+    //2.pop() : it remoe values from last index of an array
+    students.pop();
+    console.log(students);
+    
+    //3.unshift(): it is used to insert values at starting indexof an array.
+    students.unshift("Mamtha","Raju");
+    console.log(students);
+
+    //4.shift() : it remove values from stating index of an array
+    students.shift();
+    console.log(students);
+
+    //5.splice(startIndex , deleteCount,valuesToAdd): it is used to insert and remove values from
+    // middle of an array
+
+    students.splice(2,0,"tarun","varun");//addd 2 values from 2nd index
+    console.log(students);
+
+    students.splice(3,2);//remove 2 values from 3rd index
+    console.log(students);
+
+    students.splice(2,1,"prasad","sai"); //remove one value and insert two values from secon index
+    console.log(students);
+
+    //6.toString() : it is use to convert array data into string
+    console.log(students.toString());
+
+    //7.join(seperator) : it is used to convert array data into string ,it take one parameter to 
+    //seperate values
+    console.log(students.join());
+    console.log(students.join("*"));
+    console.log(students.join( " "));
+
+
+
+    </script>
+</body>
+</html>

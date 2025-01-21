@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let emp={
+            id:101,
+            name:"Tarun",
+            single:true,
+            details:function(){
+                return `Id:${this.id} Name: ${this.name} Single : ${this.single} <br>`
+            },
+            address:{
+                city:"Chennai",
+                pin:123456,
+                state:"Tamil Nadu"
+            }
+        };
+        document.write("Id:"+emp.id+" Name:"+emp.name+" Single:"+emp.single+"<br>");
+        document.write(`Id:${emp.id} Name: ${emp.name} Single : ${emp.single} <br>`);
+        document.write(emp.details());
+        document.write(`City :${emp.address.city} Pin: ${emp.address.pin} State :${emp.address.state}<br>`)
+
+
+
+        //array of object
+
+        let std=[
+            {id:1,name:"Kadhir",contact:1234,gender:"male"},
+            {id:2,name:"Selva",contact:3234,gender:"male"},
+            {id:3,name:"Kumar",contact:4234,gender:"male"}
+        ];
+        document.write("<hr>Normal way <br>")
+        document.write(`Id:${std[0].id} Name:${std[0].name} Contact:${std[0].contact} Gender:${std[0].gender}<br>`);
+        document.write(`Id:${std[1].id} Name:${std[1].name} Contact:${std[1].contact} Gender:${std[1].gender}<br>`);
+        document.write(`Id:${std[2].id} Name:${std[2].name} Contact:${std[2].contact} Gender:${std[2].gender}<br>`);
+        document.write("<hr>Using loop way <br>")
+        for(let s of std){
+            document.write(`Id:${s.id} Name:${s.name} Contact:${s.contact} Gender:${s.gender}<br>`);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+26/11/2024
+
+Html:
+- it is use to create stucture of web app.
+- use to display data to user on browser
+- stands for hyper text markup language
+- latest version html5
+
+- tag basis language
+<tag>
+- in html we have two types of tags
+    1.paired tags: <start tag>  </ending tag>
+    2.unpaired tags: <single tag>
+    
+step to create html file
+  s-1: create html file filename.html or filename.html
+  s-2: write code in it
+  s-3: execute on browser
+
+  !DOCTYPE html :it tell search engine this is html type of document belongs to version5
+
+
+  head :it contain external linal links and meta data in it
+  body : write code to display on browser 
+
+
+  Heading tags
+  <h1></h1> ......<h6></h6>
+
+  Bold -<b>  </b>
+  italic -<i> </i>
+  underline - <u> </u>
+
+  comment - <!--   -->    select the text and click ctrl+/
+
+  paragraph tag -<p></p>
+
+meta data : meta tag gives us information about data.
+
+task
+
+    1. display (a+b)2=a2+b2+2ab
+    2. display H2SO4
+
+*Element : it contain starting tag , ending tag ,contain of it .
+<startingTag  attribute="value"> content <?endingTag>
+
+attribute :- it provides additional information about tag
+           - it always write in starting tag.
+           - it comes with key and value pairs format.
+
+
+*In html we have two types of Element
+    1.Block Element : - Which takles 100% width of its screen
+                      - always start on new line
+                      - ex: h1-h6 , p ,li , table, form
+    2.Inline Element: - which takes required width of its screen 
+                      - never start on new line
+                      - ex: b , i , u , img , a
+
+*LIST
+-3 types of list 
+    1. ordered list(ol)      :types=>number,a,b,A,B,I,II,i,ii
+    2. unordered list(ul)    :types=>disc,circle,square,none
+    3. description list (dl) :there are tag
+                                dl: description list
+                                dt: define term 
+                                dd:define definition
+
+
+
+*Insert images by using relative path
+*Insert multimedia by using relative path
+
+
+What are the features of html5
+1. Symantic element introduce : the element which has meaning in it name
+                                ex: header,footer,nav,main,section,aside
+2. new input type ,new attribute and new tag
+3.multimedia element introduce : we can insert audio and video file
+4. Html API introduce :
+    -Geolocation :- it return users current location
+                  - if you want to use it , gps must have onstall in system.
+    - Drag and drop :grabbing an object from one location and put at another place 
+    - Web worker : it is small javascript code which execute  at backend of browser without 
+                   affecting its current execution
+    - Web-storage:it is used to store user data on browser
+                  there are two types of web-storage
+                    1. local storage :used to store user data for permanently
+                    2.session storage : used to store user data for limited time
+    - SSE (Server Sent Event):it allows us to get automatic update from server.
+
+
+task : display like 
+            in html <br> tag is use for line break
+
+
+*iframe : it is used to create small window in webpage
+  - we can use iframe tag for
+    1. display  youtube video,
+    2. display google map location
+    3. display one website into another website
+
+
+* LINK : it is used for navigation
+to create links we use anchor tag (a)
+
+
+*table:
+combination of rows and columns
+
+------------------------------------------------------------------------------------------------------
+27/11/2024
+
+
+* form :
+  it is used to get data from user
+  to submit forms data we have two method
+
+get method : - form data will be visible in url broswer 
+             - with get method we can not send confidential data
+             - there is character limitation with get method to send data through url.
+post method : - form data will be not visible to user it will save in body object.
+              - with post method we can submit confidential data.
+              - there is no character limitation to submit data.
+
+
+*Bookmark: it will redirect you to the particular 
+
+
+
+Task: create Bookmark for 7 wonders

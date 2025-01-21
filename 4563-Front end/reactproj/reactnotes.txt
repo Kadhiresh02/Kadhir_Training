@@ -1,0 +1,508 @@
+03/12/2024
+
+*React:
+	- it is javascript library
+	- it is use to create rich user interface
+	- it create single page Application(SPA)
+
+
+*Tecnology pre-requisit
+	-html,css.javascript(basic js, ES5 and ES6 ,oops);
+
+*software pre-requisit
+	-nodejs
+		node -v ---to check node is there are not
+		npm -v
+	-editor(Vs code)
+
+
+*how to create react project
+ there are three ways to create react project
+1.by using npm:  need to install configuration file
+
+	s-1:npm install -g create-react-app
+	s-2:create-react-app appname
+	s-3:cd appname
+	s-4:npm start
+
+2.by using npx:  no need to install configuration file
+
+	s-1:npx create-react-app appname
+	s-2:cd appname
+	s-4:npm start
+
+3.by using vite:  it create project with minimum package
+
+
+*how to start react project 
+npm start
+*hoe to display react project
+ http://localhost:3000  
+
+ *react folder structure
+ - node_modules : all the dependencies and dev-dependencies will install in this folder
+ - package.json : all dependencies entry will found 
+ - package-lock.json : detail description of file you will found here
+ - README.md : it is guide file how to use react project.
+ - public :it contain static data and idle in it
+
+*react is component basis Tecnology
+	-component :it is partial part of react project
+				- which we can reuse throughout react project
+				- it can be any part of react project
+
+- in react App.js is root component
+- in react we have two types of component
+	1. function component: when your main focus is on UI design
+	2.class component: when you have to implement complex logic in that case we use it
+
+* how to display component output
+
+*JSX(Javascript+XML) :
+ - it allows us to write html code in react
+ - it makes react code easy , in jsx we have wrap multiple element inside one parent element
+ - parent element must be any block element like div,h1-h6,p,etc..,
+
+
+
+ *props : 
+ - it is parameter or functional parameter which is use pass data inside component
+ - props return data in object format
+ - we can access props in function component by writting props.propsName.
+ - we can access props in class component by writting this.props.propsName
+
+
+
+ KadhirFunComp (fc) : 
+ KadhirFunComp (fc) :write props with fname,laname,salary,gender,address and display its values
+
+ EventComp(cc);
+ *method and events in react
+ *state :
+  - it is use to handle essential in class component
+  - it return us object type of data
+  - in class component we write state inside constructor
+
+  - if you want to use state in function component for that we use  useState Hook
+
+
+*setState: it is use to manipulate state inside class component
+
+  MyStateComp(cc);
+
+  Task: create a class component with name MyCounterComp having state with property count=0, yt
+
+
+
+  *Bootstrap:
+
+  *how to use bootstrap in react
+
+  by downloading 
+
+  s-1: npm i bootstrap
+  s-2: go to index.js and import its path
+  import 'bootstrap/dist/css/bootstrap.min.css';
+  s-3: use bootstrap classes
+
+
+ render : display component output or view on browser
+*Conditional Rendering :
+ -display component on the basis Conditional
+ 1.use  of if else : if condition is true then if block will execute otherwise else block
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ *how to use css in React
+ - there are three ways to use css
+ 1.internal css:
+ 2.external css:
+ 3.module css: -it is use when we have write design for particular component
+				- we save file with filename.module.css
+				
+
+===================================================================================
+
+04/12/2024
+
+*Fragment in react:
+	- it is an alternative option for jsx
+	- it remove unwanted element from DOM heirarchy
+	
+
+
+*component Interaction
+ -accessing data from parent component to child
+ - while performing component Interaction in between component they must have parent child relation
+ - how establish parent child relation in between component , first we have to import child component in parent component and then write child component name as tag in parent component
+
+*passing state as props
+*passing function data as props
+
+*Parent Comp(cc):
+ 
+
+ *PureComponent:
+
+ - it is use to prevent un-necessary re-rendering class component by performing shallow comparision
+ - to achive this we have to extend class component with PureComponent class
+
+ *React.Memo():
+  - it is use to prevent un-necessary re-rendering class component by performing shallow comparision
+  -to achive we have to pass function complex name as argument to React.Memo() method
+
+  MyMemoComp(fc);
+
+
+*HOC(Higher Order Component):
+- when we have to share same bussiness logic with multiple component in that case we use it
+- in this we share bussiness logic from function component to class or function component.
+
+MyHocComp(fc);
+
+*ErrorBoundary:
+
+-it is react component which is use to handle error occur in component three while rendering component
+- to handle it we use two class component life-cycle method
+	1.getDerivedStateFromError(): when error occur in component it execute automatically
+	2.componentDidCatch(): it will display error log(error information).
+
+UserComp(fc);
+
+
+*virtualDOM:
+
+-instead of manipulating browser Dom directly react creates virtual DOM in its memory 
+-where it does all the necessary changes before making changes on browser DOM react render the code which needs to be change only
+-thats why react is faster
+
+
+
+Task-1:
+
+
+
+=========================================================================================
+05/12/2024
+
+*routing in react 
+ - navigation of component
+
+
+
+
+ * how to install 
+ npm install react-router-dom@6
+
+
+ 1.createBrowserDOM() :- it is a method takes array of type of data
+					   - in its object we use two property path, element
+					   - in htis method we define all types of routing
+ 2.RouterProvider(): it helps us to render output of all routing component on browser
+
+
+
+*tyoes of routing
+	1.naming routing:display component o/p after writting component routing path name in browser url
+	2.default routing:display component o/p without routing path name
+	3.parameterize routing: display component o/p after passing parameter with routing path name
+	4.child routing: display one routing  inside another routing
+		-to perform child routing we use children property in object which array of object values
+		- to display child routing o/p we have to add <Outlet> library
+	5.wild-card routing:when user write wrong path name in browser url then we decide what component o/p should display
+	  - 
+
+ in src folder
+	- MainRouting folder
+		-routing.js file
+	- layout folder
+		-NavComp(fc)
+		-FooterComp(fc)
+		-LoginComp(fc)
+		-MainDashboardComp(fc)
+		-PageNotFoundComp(fc)
+
+	-Hooks folder
+		ReactHooksComp(fc)
+		UseStateHookComp(fc)
+		UseEffectHookComp(fc)
+
+*how to create layout for react project
+ 
+
+
+
+*Class component Lifecycle method
+ -it comes with four phases
+	1.Mounting phase: when component initialize
+		-constructor:when clas object initialize constructor get execute automatically
+		-getDerivedStateFromProps:it is static method which execute automatically and it is use to set value comng 
+		-render:it is responsible to render component data
+		-componentDidMount: it will execute immediatly after render method
+
+	2.Update phase:when DOM manipulation is done
+		-shouldComponentUpdate: it decide whether component will Update or not
+				- it return boolean 
+		-getSnapShotbeforeUpdate:it return previous data of props and state before updation of it 
+		-render: it is responsible to render component data
+		-componentWillUpdate:it will return updated values of state and props
+
+	3.Unmounting phase:when component is deleted
+	- componentWillunmount:it just call before component deleted ,it is use to disconect component connection with other component
+	4.Error phase:
+	-setDerivedStateFromError(): it execute automatically when error occur in component
+	-componentDidCatch(): it return error log
+
+* Extension:React/Redux/Typescript/Javascript/Omi snippets
+- rfce :create normal function component
+- rafce :create arrow function component 
+- rce : create class component
+- rconst : it create constructor with super method and state
+
+MyFavColorComp.js(cc);
+
+*Hooks in react:
+-it allows us to use class component feature in function component.
+-by using hooks we can use state in function component
+-in react hooks introduce in react version-16
+
+
+*rules to use hooks
+-Hooks work only in function component
+-Hooks always use in top-level component
+-hooks can not be render conditionaly
+
+1.useState Hook:
+2.useEffect Hook:
+3.useContext Hook:
+4.useRef Hook:
+5.useReducer Hook:
+6.useCallback hooks:
+7.useMemo hooks:
+
+
+*useState Hook:
+- if
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==========================================================================================
+06/12/2024
+
+*validation for dropdown
+
+
+*CRUD
+
+-REST Fake API:
+	Axios library: it is used to make request from react app to server
+   -how to install axios
+	npm i Axios
+*json-server: it is dummy server , which server environment to database
+	npm install json-server
+*json database
+
+
+*how to start json-server and upload db.json
+cd src/shared/database(press enter)
+
+npx json-server --watch -p 8888 db.json(press enter)
+
+
+src folder
+   CRUD folder
+		-ProductDashComp (fc)
+		-ProductAddComp (fc)
+		-ProductEditComp (fc)
+
+
+*Get request:to fetch data from server
+
+*Material UI:
+	-it provide inbuilt react component ,which makes react project attractive
+	- as well as it provide icon
+
+-its official website is www.mui.com
+
+*how to install mui
+npm install @mui/material @emotion/react @emotion/styled
+
+*how to install material icon
+npm install @mui/icons-material
+
+
+useNavigate
+
+
+
+
+
+
+
+
+===============================================================================
+09/12/2024
+
+
+concurrently 
+install 
+npm i -g concurrently
+
+got to package.json in script part
+
+"json-server":"cd src/shared/database && json-server --watch -p 8848 db.json",
+"start-dev": "concurrently \"npm start\" \"npm run json-server\"",
+
+
+
+
+*web-storage: it is use to store user data on browser
+1.local storage:it store user data permanantly.
+2.session storage: it store user data for limited time.
+
+
+===================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======================================================================================
+10/12/2024
+
+-describe(msg,function): it is use to group multiple test case.
+
+-coverage :it is tracking process it will  tell us how much code cover while performing testing
+
+
+*how to generate test coverage file
+	s-1: go to package.json and write in script tag
+		script:{
+			"coverage":"jest --coverage --watchAll"
+		}
+	s-2:in  package.json file add jest coverage nodejs
+		   "jest":{
+    				"collectCoverage":true,
+    				"coverageDirectory":"coverage",
+    				"coverageReporters":["json","lcov","text","clover"],
+    				"coverageThreshold":{
+      					"global":{
+        				"branches":80,
+        				"functions":80,
+        				"lines":80,
+        				"statements":80
+      					}
+    				}    
+  				}
+  
+	s-3:in terminal writ wcommand 
+		 npm run coverage
+
+		
+*work flow of jwt token
+
+*Redux:
+-it is used to store, manage and track state for javascript Application
+ (or)
+-it is predictable state container for javascript
+
+- redux work on three core principle
+1.store(Bank): it is use to store state in it
+2.action(withdraw,deposit,transfer) : it is simple statement which we are going to perform
+3.reducer(cashier): it is actually carryout state transition depending on state and action and it return new state
+
+
+
+*react project
+*redux library
+	-reduxtoolkit
+*react-redux library:it is use to connect react app with redux or reduxtoolkit
+
+
+* how to install reduxtoolkit
+	npm install @reduxjs/toolkit
+how to install react-redux library
+	-npm install react-redux
+
+reduxCode folder 
+ -api folder
+ 	apiSlice.js
+ -store.js file
+
+
+
+ *useDispatch(): in function component if you want to access or call action from redux for that we use it
+ *useSelector(): it allows us to access state from redux
+
+ *JWT token
+ *common functionality
+
+ 
+
+

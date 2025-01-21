@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replace</title>
+    <style>
+        .out{
+            height: fit-content;
+            width: fit-content;
+            border: 2px solid red;
+            background-color: aqua;
+            margin: auto;
+            padding: 50px;
+        }
+        .big-txt{
+            background-color: cornsilk;
+            height: 100px;
+            width: 500px;
+            border: 2px solid darkorange;
+            padding: 15px;
+        }
+        div{
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="big-txt">
+            <p id="txt">The teacher told the students to repeat, repeat, and repeat the words they had learned from their teacher because repeating words helps words become easier to remember, and repeating repetition reinforces repeated learning effectively for students .</p>
+        </div>
+        <div>
+            <label for="">Enter Old Text :</label>
+            <input type="text" name="oldtxt" id="ot">
+        </div>
+        <div>
+            <label for="">Enter New Text :</label>
+            <input type="text" name="newtxt" id="nt">
+        </div>
+        <div>
+            <button type="button" onclick="replace()">Replace</button>
+            <button type="button" onclick="replaceAll()">ReplaceAll</button>
+        </div>
+    </div>
+    <script>
+        let t=document.getElementById("txt").innerHTML;
+        
+        
+        function replace(){
+            let ot=document.getElementById("ot").value;
+            let nt=document.getElementById("nt").value;
+            let output=t.replace(ot,nt);
+            
+            document.getElementById("txt").innerHTML=output;
+        }
+        function replaceAll(){
+            let ot=document.getElementById("ot").value;
+            let nt=document.getElementById("nt").value;
+            let output=t.replaceAll(ot,nt);
+            
+            document.getElementById("txt").innerHTML=output;
+        }
+    </script>
+</body>
+</html>

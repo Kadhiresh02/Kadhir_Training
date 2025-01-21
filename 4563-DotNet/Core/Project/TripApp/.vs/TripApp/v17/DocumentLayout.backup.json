@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\4563-DotNet\\Core\\Project\\TripApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|d:\\4563-dotnet\\core\\project\\tripapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|d:\\4563-dotnet\\core\\project\\tripapp\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|solutionrelative:models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|d:\\4563-dotnet\\core\\project\\tripapp\\models\\companycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|solutionrelative:models\\companycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|d:\\4563-dotnet\\core\\project\\tripapp\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|d:\\4563-dotnet\\core\\project\\tripapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|d:\\4563-dotnet\\core\\project\\tripapp\\models\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|solutionrelative:models\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|d:\\4563-dotnet\\core\\project\\tripapp\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|solutionrelative:controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|d:\\4563-dotnet\\core\\project\\tripapp\\views\\home\\addreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{298B8EF7-E491-4A78-A479-97BA2D27B243}|TripApp.csproj|solutionrelative:views\\home\\addreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T09:51:25.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T09:51:23.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompanyContext.cs",
+              "DocumentMoniker": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Models\\CompanyContext.cs",
+              "RelativeDocumentMoniker": "Models\\CompanyContext.cs",
+              "ToolTip": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Models\\CompanyContext.cs",
+              "RelativeToolTip": "Models\\CompanyContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T09:51:19.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Models\\Repository.cs",
+              "RelativeDocumentMoniker": "Models\\Repository.cs",
+              "ToolTip": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Models\\Repository.cs",
+              "RelativeToolTip": "Models\\Repository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T09:50:43.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Models\\IRepository.cs",
+              "RelativeDocumentMoniker": "Models\\IRepository.cs",
+              "ToolTip": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Models\\IRepository.cs",
+              "RelativeToolTip": "Models\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T09:50:20.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T09:47:50.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddReservation.cshtml",
+              "DocumentMoniker": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Views\\Home\\AddReservation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddReservation.cshtml",
+              "ToolTip": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Views\\Home\\AddReservation.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddReservation.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T09:44:54.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationController.cs",
+              "ToolTip": "D:\\4563-DotNet\\Core\\Project\\TripApp\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T09:03:00.157Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

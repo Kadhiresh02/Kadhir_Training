@@ -1,0 +1,216 @@
+28/11/2024
+
+*javascript
+  - it is used  to add functionality into webapp.
+  - it is interpreted language.
+  - it is loosely typed language.
+
+
+why js is called loosely typed language
+    - when we create a variable in js we can not determine what type of data it contain until and unless initialize it
+    - in a js variable we can store multiple type of data in it 
+
+how to use js
+    - ther are two ways to use js
+        1.internal javascript: in html file we use script tag and in that we write js code
+        2.external javascript : in this we create seperate js file and import that js file in html file by using script tag.
+
+how to get output in javascript
+
+1.document.write():it will display output in html page . it will display output in same line
+2.window.alert(): it will display output in modal popup window
+3.console.log(): it will display output in browser console or in terminal
+4.innerHTML(DOM): it will display output inside an element.
+
+
+29/11/2024
+
+*hoisting :moving variable and function declaration at top of the web page.
+
+
+
+
+*variable :it is use to store data in it 
+          - we can create variable in js by using var,let,const
+
+1. var : - it create function scope variable
+         -we can use variable before its declaration
+         - we can re-declare variable
+
+ //use of var
+        var mydata; //variable declaration
+            mydata="Changepond"; //variable initialization
+        var name="Kadhir"; // defining a variable
+
+
+2.let :it create block scope variable
+       - we can not use variable before its declaration
+       - we can not re-declare variable
+
+3. const : - it create blockscope variable
+           - we can not use variable before its declaration
+           - in this when we declare a variable at same time we have initialize it
+           - its data will never change on run time
+ 
+
+* special operators
+  -exponentiation(**): it retuns power of any number
+
+
+  - ==(equal to):
+    -it check data only and if both are same it return true value
+    -ex:
+        5==5
+        true
+        5=='5'
+        true
+  - ===(exactly equal to):
+    -it will check value as well as its data type and if both are same then it will return true value
+    - ex:
+        5===5
+        true
+        5==='5'
+        false
+
+
+*DOM manipulation
+
+
+*function:
+    - it is block of code which is used to perform specific task
+    - function will execute only when we call it
+
+* there are two types of functions
+    1.pre defined function: provide by js to use
+    2.userdefined function :user developed for particular use
+
+Syntax:
+function functionName(){
+  //logical code
+}
+
+functionName();
+
+
+
+
+*how to change attribute value by using DOM
+*how to call function by using event
+*how to access data from input control
+
+*Array : - it is used to store multiple values with same data type.
+         - in array data store on index basis
+         - array index always start from zero
+         - we can access array values outside by writing arrayname[indexnumber]
+* Arraymethod
+
+
+*object : - it is use to store multiple values with different data type
+          - in object data store in key and value paired format
+          - we can access object data outside of by writing object.keyname.
+          - object type of data is mentioned by {}
+
+
+Task: create array of object for 10 employee hav keys id,name,post,salary,gender,age,city,state
+1.display all 10 employee information
+2.display employee information who is manager
+3.display information of all employee whose gender is female
+4.display information of all employee whose age >55
+5.display information of those employeewho belong to tamilnadu state
+
+
+
+*callback function : passing a function name as an argument inside another function is called callback function
+
+*Date and Time 
+  - if we want to display date and time in js first we have object of date class
+  - Date object return information from browser
+
+let objectName=new Date();
+
+
+
+*form Validation :
+  - checking user entered data is correct or wrong
+  
+
+  task:
+  perform validation for password, email, contact,gender
+
+
+
+
+============================================================================================
+02.12.2024
+   
+* String and its method
+String  : -it collection of characters
+          - in string every character has index value and it start from zero
+          - in string blank space also considered as character.
+
+-there are three method which index of searching string
+1.indexof(searchingStreing,startIndex);
+  - it will search string from left to right and return index of first occurences of string
+  - if searching string is not found then return -1 as result
+
+2.lastIndexof(searchingStreing,startIndex?);
+  -it will search string from right to left and return index of first occurences of string
+  - if searching string is not found then return -1 as result
+
+3.search(searchingString)
+   - it will search string from left to right and return index of first occurences of string
+  - if searching string is not found then return -1 as result
+  - it is faster than indexof method
+
+-there are three method which return part of searching string
+1. slice(statrIndex , endIndex?);
+  - it will return part of string from big string
+  - if we write +ve index then will search index from left to right
+  - if we write -ve index then will search index from right to left
+
+2. substring(statrIndex , endIndex?)
+  - it will return part of string from big string
+  - if we write +ve index then will search index from left to right
+
+3. substr(startIndex,totalNumberOfCHaracters);
+  - it will return part of string from big string
+  - if we write +ve index then will search index from left to right 
+
+  charAt(index): it return character from index number
+  charCodeAt(index) :it use to return ASCII
+
+  replace():
+  replaceAll():
+
+  *split(seperator) it is used to string data into array
+
+  task :
+
+  *prompt:
+  it generate one popup window and allows use to insert value in it
+
+  *setTimeOut:it call another method only one after particular time interval
+  *setInterval:it call another method multiple time after particular time internal
+
+
+  *ES-5(ECMA script-2009)
+
+  - forEach
+  - map
+  - filter
+  - every 
+  - some
+  - reduce/reduceRight
+
+  ES-6(EMCA script-2015)
+
+  - let ,const
+  - **
+
+  *how to merge two or more array values 
+  spread , concate
+
+
+  * destructuring :creating constant variable to store data in it
+    - we can destructure array and object values.
+

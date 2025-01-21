@@ -1,0 +1,28 @@
+first clone
+
+git clone -b react https://github.com/Karthik4322/Fullstack-API-Integrated-Project.git
+
+
+
+
+
+BackEnd
+
+--Check tools whether all three are installed or not
+
+--create new database Employee
+	--go to properties of employee database select the ConnectionString and past it in appsettings.json
+
+--In Console
+	* add-migration EmployeeDB
+	* updata-database
+Run the project
+====================
+React Proj
+
+--in terminal
+
+*npm install
+*npm i axios
+*npm install react-router-dom@6
+*npm start

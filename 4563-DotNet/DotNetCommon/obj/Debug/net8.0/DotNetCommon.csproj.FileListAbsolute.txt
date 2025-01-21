@@ -1,0 +1,14 @@
+D:\4563-DotNet\DotNetCommon\bin\Debug\net8.0\DotNetCommon.exe
+D:\4563-DotNet\DotNetCommon\bin\Debug\net8.0\DotNetCommon.deps.json
+D:\4563-DotNet\DotNetCommon\bin\Debug\net8.0\DotNetCommon.runtimeconfig.json
+D:\4563-DotNet\DotNetCommon\bin\Debug\net8.0\DotNetCommon.dll
+D:\4563-DotNet\DotNetCommon\bin\Debug\net8.0\DotNetCommon.pdb
+D:\4563-DotNet\DotNetCommon\obj\Debug\net8.0\DotNetCommon.GeneratedMSBuildEditorConfig.editorconfig
+D:\4563-DotNet\DotNetCommon\obj\Debug\net8.0\DotNetCommon.AssemblyInfoInputs.cache
+D:\4563-DotNet\DotNetCommon\obj\Debug\net8.0\DotNetCommon.AssemblyInfo.cs
+D:\4563-DotNet\DotNetCommon\obj\Debug\net8.0\DotNetCommon.csproj.CoreCompileInputs.cache
+D:\4563-DotNet\DotNetCommon\obj\Debug\net8.0\DotNetCommon.dll
+D:\4563-DotNet\DotNetCommon\obj\Debug\net8.0\refint\DotNetCommon.dll
+D:\4563-DotNet\DotNetCommon\obj\Debug\net8.0\DotNetCommon.pdb
+D:\4563-DotNet\DotNetCommon\obj\Debug\net8.0\DotNetCommon.genruntimeconfig.cache
+D:\4563-DotNet\DotNetCommon\obj\Debug\net8.0\ref\DotNetCommon.dll

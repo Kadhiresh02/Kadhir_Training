@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            border: 2px lightblue solid;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    background: radial-gradient(black, transparent);
+        }
+    </style>
+</head>
+<body>
+    <form class="box">
+        <label for="num1">Enter Number 1 :</label>
+        <input type="text" id="num1" name="num1"><br>
+        <label for="num2">Enter Number 2 :</label>
+        <input type="text" id="num2" name="num2"><br>
+        <button type="button" onclick="add()">Addition</button>
+    </form>
+
+    <img src="../assets/images/elephant.jpg" alt="element" id="i1" height="100px" width="200px"><br>
+    <button type="button" onclick="changeImage()">Change Image</button>
+    <script>
+        function changeImage()
+        {
+            document.getElementById("i1").src="../assets/images/tiger.jpg";
+        }
+
+        function add(){
+            let n1=document.getElementById("num1").value;
+            let n2=document.getElementById("num2").value;
+            console.log(parseInt(n1)+parseInt(n2));
+        }
+    </script>
+</body>
+</html>

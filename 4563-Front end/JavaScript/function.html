@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+    <script>
+        //1.simple function
+        function greeting(){
+            return "Welcome you all to js sesseion <br>";
+        }
+        document.write(greeting());
+        let data=greeting();
+        document.write(data);
+
+        //2.parameterize function
+
+        function add(num1,num2)
+        {
+            return num1+num2;
+        }
+        document.write(add(34,54),"<br>");
+        document.write(add(124,344),"<br>");
+
+        //3.anonymous function: function with no name
+        let mul=function(num1,num2)
+        {
+            return num1*num2 +"<br>";
+        };
+        document.write(mul(23,45));
+
+        //4.Arrow functioon : function which has no name as    well as no function keyword
+        
+        // let div=(num1,num2)=>{
+        //     return num1/num2 +"<br>";
+        // }
+
+        let div=(num1,num2)=>num1/num2+"<br>";
+        document.write(div(20,40));
+
+        //5.optional parameterize function : function which parameter will be optional
+        let fullname=(fname,lname,mname="")=>{
+            return fname+mname+lname+"<br>";
+        }
+        document.write(fullname("Kadhir ","Selva "));
+        document.write(fullname("Kadhir ","Selva"," V "));
+        
+
+        //6.rest parameterized function:when we don't know how many parameters required.in this we use spread operator(...);
+        let stdlist=(...std)=>{
+            return std;
+        }
+        document.write(stdlist("Rahul","Prasad","Kumar",234));
+
+    </script>
+</body>
+</html>

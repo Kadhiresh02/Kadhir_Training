@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Table</h2>
+    <table border="1px" >
+        <thead>
+            <tr>
+                <th>
+                    Sr.no.
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Post
+                </th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Kadhir</td>
+                    <td>Developer</td>
+                </tr>
+                <tr>
+                    <td>2.</td><td>Selva</td><td>Java Developer</td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+    <hr>
+    <h2>Rowspan</h2>
+    <table width="25%" border="1px">
+        <tr><td rowspan="2">A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td><td rowspan="2">E</td>
+        </tr>
+        <tr>
+            <td>F</td><td>G</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Colspan</h2>
+    <table width="25%" border="1px">
+        <tr>
+            <td>A</td><td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td>C</td><td>D</td><td>E</td>
+        </tr>
+        <tr>
+            <td colspan="2">F</td><td>G</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Table with rowspan and colspan</h2>
+    <table width="25%" border="1px">
+        <tr>
+            <td rowspan="2" colspan="2" bgcolor="red" >A</td><td bgcolor="blue">B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td><td>E</td><td>F</td>
+        </tr>
+    </table>
+</body>
+</html>

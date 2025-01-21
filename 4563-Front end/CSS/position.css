@@ -1,0 +1,51 @@
+header{
+    background-color: chartreuse;
+    border-bottom: 5px solid rgb(112, 116, 216);
+    padding: 10px;
+}
+
+.logo{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 39px;
+    position: relative;
+    top: 5px;
+}
+
+.parent{
+    border: 3px solid red;
+    width: 400px; 
+    height: 100px;
+    background-color: antiquewhite;
+    left: 30px;
+    position: relative;
+}
+
+.child{
+    border: 2px solid deepskyblue;
+    position: absolute;
+    left: 10px;
+}
+
+.pos-fixed{
+    border: 2px solid;
+    right:0px;
+    width: 50px;
+    z-index: 1;
+    position: fixed;
+}
+
+.pos-fixed img{
+    height: 40px;
+    width: 70px;
+}
+
+.pos-sticky{
+    border: 2px solid blue;
+    position: sticky;
+    top: 0px;
+    background-color: aqua;
+    text-align: center;
+}

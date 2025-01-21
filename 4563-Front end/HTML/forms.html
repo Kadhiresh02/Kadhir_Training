@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <div>
+            <label for="name">Enter your Full Name :</label>
+            <input type="text" name="Fullname" id="name" placeholder="Fullname" pattern="^[a-zA-Z ]{3,10}$" required  >
+        </div>
+        <div>
+            <label for="mail">Enter your Email :</label>
+            <input type="email" name="Email" id="mail" required>
+        </div>
+        <div>
+            <label for="contact" >Enter your contact number :</label>
+            <input type="tel" name="contact" id="contact" pattern="^[0-9]{9,11}$" required>
+        </div>
+        <div>
+            <label for="Gender">Select your Gender :</label>
+            <input type="radio" name="Gender" id="Gender" value="male">Male
+            <input type="radio" name="Gender" id="Gender" value="female">Female
+        </div>
+        <div>
+            <label for="Qualification"> Select your Qualification :</label>
+            <input type="checkbox" name="edu" id="Qualification" value="SSLC">SSLC
+            <input type="checkbox" name="edu" id="Qualification" value="HSC">HSC
+            <input type="checkbox" name="edu" id="Qualification" value="UG">UG
+        </div>
+        <div>
+            <label for="course">Select your course :</label>
+            <select name="courses" id="course" multiple>
+                <!-- if we give multiple we ca select multiple values -->
+                <option value="">Select your Course</option>
+                <option value="Java">Java</option>
+                <option value="C++">C++</option>
+                <option value="React">React</option>
+                <option value="Angular">Angular</option>
+            </select>
+        </div>
+        <div>
+            <label for="fees">Enter Fees:</label>
+            <input type="text" name="fees" id="fees" value="10000" readonly disabled>
+        </div>
+        <div>
+            <label for="feedback">Feedback</label>
+            <textarea name="" id=""></textarea>
+        </div>
+        <div>
+            <label for="pass">Enter Password :</label>
+            <input type="password" name="password" id="pass" placeholder="Enter Password">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

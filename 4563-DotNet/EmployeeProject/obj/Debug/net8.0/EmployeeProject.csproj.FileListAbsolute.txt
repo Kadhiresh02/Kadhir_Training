@@ -1,0 +1,14 @@
+D:\4563-DotNet\EmployeeProject\bin\Debug\net8.0\EmployeeProject.exe
+D:\4563-DotNet\EmployeeProject\bin\Debug\net8.0\EmployeeProject.deps.json
+D:\4563-DotNet\EmployeeProject\bin\Debug\net8.0\EmployeeProject.runtimeconfig.json
+D:\4563-DotNet\EmployeeProject\bin\Debug\net8.0\EmployeeProject.dll
+D:\4563-DotNet\EmployeeProject\bin\Debug\net8.0\EmployeeProject.pdb
+D:\4563-DotNet\EmployeeProject\obj\Debug\net8.0\EmployeeProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\4563-DotNet\EmployeeProject\obj\Debug\net8.0\EmployeeProject.AssemblyInfoInputs.cache
+D:\4563-DotNet\EmployeeProject\obj\Debug\net8.0\EmployeeProject.AssemblyInfo.cs
+D:\4563-DotNet\EmployeeProject\obj\Debug\net8.0\EmployeeProject.csproj.CoreCompileInputs.cache
+D:\4563-DotNet\EmployeeProject\obj\Debug\net8.0\EmployeeProject.dll
+D:\4563-DotNet\EmployeeProject\obj\Debug\net8.0\refint\EmployeeProject.dll
+D:\4563-DotNet\EmployeeProject\obj\Debug\net8.0\EmployeeProject.pdb
+D:\4563-DotNet\EmployeeProject\obj\Debug\net8.0\EmployeeProject.genruntimeconfig.cache
+D:\4563-DotNet\EmployeeProject\obj\Debug\net8.0\ref\EmployeeProject.dll
